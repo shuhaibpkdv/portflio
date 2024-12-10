@@ -1,14 +1,16 @@
 body {
     margin: 0;
     background-color: black;
+    color: white;
 }
 
+/*navbar section*/
 .navbar {
     background-color: black !important;
     height: 80px;
 }
 
-.navbar .custom-icon{
+.navbar .custom-icon {
     color: white;
     font-size: 25px;
     padding-left: 25px;
@@ -20,7 +22,7 @@ body {
 
 .toggler-items {
     background-color: #007800;
-    height: 300px;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -33,9 +35,15 @@ body {
     color: white;
 }
 
-.navbar form{
+.navbar-nav li:first-child a {
+    color: #00b700;
+    /* Change to your desired color */
+}
+
+.navbar form {
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 .navbar form button {
@@ -46,7 +54,107 @@ body {
 }
 
 @media screen and (min-width: 991px) {
-    .toggler-items{
+    .toggler-items {
         background-color: black;
     }
+
+    .navbar form button {
+        border: none;
+    }
+
+    .navbar form {
+        padding-bottom: 0;
+    }
+
+    .navbar .custom-icon {
+        color: white;
+        font-size: 25px;
+        padding-left: 100px;
+    }
 }
+
+/*\navbar section*/
+
+
+/*banner section*/
+
+/*left side*/
+.left-side h2 {
+    margin-top: 130px;
+    padding-left: 30px;
+}
+
+.left-side h1 {
+    padding-left: 30px;
+}
+
+.left-side p {
+    padding-left: 30px;
+}
+
+.left-side .btn {
+    color: white;
+    margin-left: 30px;
+    border: 1px solid;
+    border-color: #007800;
+    padding: 10px;
+}
+
+/*\left side*/
+
+/*right side*/
+.right-side img {
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+/*\right side*/
+
+@media screen and (max-width: 991px) {
+    .right-side img {
+        border-radius: 50%;
+        margin-top: 80px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-nav li {
+        padding-right: 25px;
+        padding-left: 30px;
+    }
+
+    .left-side h2 {
+        margin-top: 130px;
+        padding-left: 100px;
+    }
+
+    .left-side h1 {
+        padding-left: 100px;
+    }
+
+    .left-side p {
+        padding-left: 100px;
+    }
+
+    .left-side .btn {
+        color: white;
+        margin-left: 100px;
+        border: 1px solid;
+        border-color: #007800;
+        padding: 10px;
+    }
+
+    .right-side img {
+        border-radius: 50%;
+        margin-top: 75px;
+        margin-left: 120px;
+        width: 350px !important;
+    }
+}
+
+/*\banner section*/
+
+
