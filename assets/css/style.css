@@ -158,3 +158,34 @@ body {
 /*\banner section*/
 
 
+/*about section*/
+
+.about-section{
+    background-color: #032103;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.follow-me{
+    padding: 50px 0px 25px 0px;
+    font-size: 20px;
+}
+
+.follow-me p span i{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 550px) {
+    .para {
+        padding: 15px 20px 10px 20px !important;
+    }
+}
+
+
+/*footer section*/
+footer{
+    margin-top: 100px;
+}
+/*\footer section*/
