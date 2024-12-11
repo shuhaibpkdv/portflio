@@ -35,11 +35,6 @@ body {
     color: white;
 }
 
-.navbar-nav li:first-child a {
-    color: #00b700;
-    /* Change to your desired color */
-}
-
 .navbar form {
     padding-right: 15px;
     padding-left: 15px;
@@ -53,9 +48,19 @@ body {
     border-radius: 59px;
 }
 
+.navbar form button a {
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (min-width: 991px) {
     .toggler-items {
         background-color: black;
+    }
+
+    .navbar-nav li:first-child a {
+        color: #00b700;
+        /* Change to your desired color */
     }
 
     .navbar form button {
@@ -120,6 +125,12 @@ body {
     }
 }
 
+@media screen and (min-width: 991px) {
+    .left-side {
+        margin-top: 140px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .navbar-nav li {
         padding-right: 25px;
@@ -160,19 +171,19 @@ body {
 
 /*about section*/
 
-.about-section{
+.about-section {
     background-color: #032103;
     text-align: center;
     align-items: center;
     padding-top: 100px;
 }
 
-.follow-me{
+.follow-me {
     padding: 50px 0px 25px 0px;
     font-size: 20px;
 }
 
-.follow-me p span i{
+.follow-me p span i {
     padding-left: 20px;
     font-size: 20px;
 }
@@ -185,7 +196,78 @@ body {
 
 
 /*footer section*/
-footer{
+footer {
     margin-top: 100px;
 }
+
 /*\footer section*/
+
+
+/*ABOUT PAGE*/
+
+.about-page {
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 991px) {
+    .about-page {
+        margin-top: 20px;
+    }
+}
+
+/*\ABOUT PAGE*/
+
+
+/*SERVICE PAGE*/
+
+.service-items {
+    padding-top: 30px;
+}
+
+.service-items .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: none;
+}
+
+.service-items .card-body {
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+}
+
+/*\SERVICE PAGE*/
+
+
+/*PROJECT PAGE*/
+
+.project-items {
+    padding-top: 30px;
+}
+
+.project-items .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: none;
+}
+
+.project-items .card-body {
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+}
+
+/*\PROJECT PAGE*/
+
+
+/*SKILLS PAGE*/
+
+.skill-bar {
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*SKILLS PAGE*/
