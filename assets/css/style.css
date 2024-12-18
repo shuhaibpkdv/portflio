@@ -13,7 +13,6 @@ body {
 .navbar .custom-icon {
     color: white;
     font-size: 25px;
-    padding-left: 25px;
 }
 
 .navbar-toggler-icon {
@@ -53,14 +52,13 @@ body {
     color: white;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 991px) {  /*For Mobile and Tablet*/     
     .toggler-items {
         background-color: black;
     }
 
     .navbar-nav li:first-child a {
-        color: #00b700;
-        /* Change to your desired color */
+        color: #00b700; /* Change to your desired color */        
     }
 
     .navbar form button {
@@ -74,7 +72,6 @@ body {
     .navbar .custom-icon {
         color: white;
         font-size: 25px;
-        padding-left: 100px;
     }
 }
 
@@ -85,7 +82,7 @@ body {
 
 /*left side*/
 .left-side h2 {
-    margin-top: 130px;
+    margin-top: 50px;
     padding-left: 30px;
 }
 
@@ -108,30 +105,35 @@ body {
 /*\left side*/
 
 /*right side*/
+.right-side {
+    margin-bottom: 25px;
+}
+
 .right-side img {
-    border-radius: 50%;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 90px;
-    margin-bottom: 100px;
+    border-radius: 10px;
 }
 
 /*\right side*/
 
-@media screen and (max-width: 991px) {
+
+@media screen and (max-width: 768px) {  /*For Mobile device*/
     .right-side img {
-        border-radius: 50%;
         margin-top: 80px;
-        margin-left: 30px;
+        margin-left: 15px;
     }
 }
 
-@media screen and (min-width: 991px) {
-    .left-side {
-        margin-top: 140px;
+@media screen and (min-width: 768px) {
+    .right-side img {
+        margin-top: 40px;
+        margin-left: 50px;
+        width: 300px !important;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     .navbar-nav li {
         padding-right: 25px;
         padding-left: 30px;
@@ -139,29 +141,17 @@ body {
 
     .left-side h2 {
         margin-top: 130px;
-        padding-left: 100px;
-    }
-
-    .left-side h1 {
-        padding-left: 100px;
-    }
-
-    .left-side p {
-        padding-left: 100px;
     }
 
     .left-side .btn {
         color: white;
-        margin-left: 100px;
         border: 1px solid;
         border-color: #007800;
         padding: 10px;
     }
 
     .right-side img {
-        border-radius: 50%;
         margin-top: 75px;
-        margin-left: 120px;
         width: 350px !important;
     }
 }
